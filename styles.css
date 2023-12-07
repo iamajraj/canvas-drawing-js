@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  position: relative;
+}
+canvas {
+  background-color: antiquewhite;
+}
+#drawing-type {
+  font-size: 26px;
+  margin-top: 10px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding-inline: 20px;
+  padding-block: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#drawing-type:focus {
+  outline: none;
+  border: none;
+}
